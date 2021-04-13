@@ -1,9 +1,32 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+
+h1,
+body,
+html,
+main {
+    margin: 0;
 }
+
+
 /*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.capa {
+    background-image: url("../images/soup.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-weight: 100;
 }
