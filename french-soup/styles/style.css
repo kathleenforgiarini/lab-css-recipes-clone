@@ -30,3 +30,75 @@ html {
     top: 50%;
     font-weight: 100;
 }
+
+.corpo {
+    margin: 70px 60px;
+    color: #828282;
+}
+
+.corpo p,
+ul,
+h4 {
+    text-align: justify;
+}
+
+.descricao {
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-recipe {
+    width: 300px;
+    height: 50;
+    margin: 10px 20px 30px;
+}
+
+hr {
+    height: 1px;
+    background-color: #B5B5B5;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+.ingredients {
+    font-size: 16px;
+    text-align: center;
+}
+
+.img-cooking {
+    width: 300px;
+    height: 50;
+    margin: 20px;
+}
+
+.directions {
+    font-size: 16px;
+}
+
+ol {
+    counter-reset: list;
+    margin-top: 30px;
+    padding: 0;
+}
+
+ol li {
+    list-style: none;
+}
+
+ol>li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+li {
+    margin: 3px;
+}
