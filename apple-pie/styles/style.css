@@ -1,0 +1,60 @@
+/*Some necessary adjustments*/
+
+h1,
+body,
+html,
+main {
+    margin: 0;
+}
+
+
+/*Import the font and set the default size*/
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.capa {
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-weight: 100;
+}
+
+.corpo {
+    margin: 70px 60px;
+    color: #828282;
+}
+
+.corpo p,
+ul,
+h4 {
+    text-align: justify;
+}
+
+.descricao {
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-recipe {
+    width: 300px;
+    height: 50;
+    margin: 10px 20px 30px;
+}
+
+hr {
+    height: 1px;
+    background-color: #B5B5B5;
+    margin-bottom: 40px;
+}
